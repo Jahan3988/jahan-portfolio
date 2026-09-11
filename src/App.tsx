@@ -376,6 +376,12 @@ ${formData.message}
 
       <div className="sunrise-disc" aria-hidden="true" />
 
+      <div className="signal-lines" aria-hidden="true">
+        <span />
+        <span />
+        <span />
+      </div>
+
       <nav className="navbar">
         <a href="#home" className="logo">
           J<span>.</span>
@@ -423,8 +429,8 @@ ${formData.message}
             </p>
 
             <h1 className="hero-name">
-              <span>Jahanzeb</span>
-              <small>Engineering the unknown</small>
+              <span>Jahanzeb Khan</span>
+              <small>Engineering creating the future</small>
             </h1>
 
             <p className="hero-description">
@@ -445,12 +451,12 @@ ${formData.message}
 
             <div className="hero-stats">
               <div>
-                <strong>4+</strong>
+                <strong>2+</strong>
                 <span>Years</span>
               </div>
 
               <div>
-                <strong>20+</strong>
+                <strong>6+</strong>
                 <span>Projects</span>
               </div>
 
@@ -460,9 +466,33 @@ ${formData.message}
               </div>
             </div>
 
+            <div className="hero-telemetry" aria-label="Current system status">
+              <span>SYS.STATUS</span>
+              <strong>AVAILABLE FOR NEW BUILDS</strong>
+              <i />
+            </div>
+
             <div className="scroll-indicator">
               <span></span>
               Scroll to explore
+            </div>
+          </div>
+
+          <div className="hero-console" aria-hidden="true">
+            <div className="console-topline">
+              <span>LIVE / 2026.09</span>
+              <span>JHK-001</span>
+            </div>
+            <div className="console-portrait">
+              <img src={portraitImage} alt="" />
+              <div className="reticle reticle-one" />
+              <div className="reticle reticle-two" />
+              <span className="console-crosshair">+</span>
+            </div>
+            <div className="console-readout">
+              <span>BUILD PROFILE</span>
+              <strong>HUMAN / CODE / IMPACT</strong>
+              <small>DATA STREAM NOMINAL</small>
             </div>
           </div>
         </section>
